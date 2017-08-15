@@ -3,7 +3,7 @@
     if (window.Notification) {
       Notification.requestPermission(function() {
         var n = new Notification('Title', { body: 'Emoji notification: 😍😍😍' });
-      }
+      });
     } else {
 		  alert('Your browser doesn\'t support notifications.');
     }
